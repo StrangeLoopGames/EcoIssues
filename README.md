@@ -10,7 +10,7 @@ Or go to this link: https://github.com/StrangeLoopGames/EcoSuggestions/issues
 
 We appreciate any troubleshooting you can help with, so please keep an eye out for reply notifications via email.
 
-## When Posting an Issue
+### When Posting an Issue
 
 When posting a bug, please follow these Guidelines to help assist the developers:
 - Mention which version of Eco this bug is occurring in
