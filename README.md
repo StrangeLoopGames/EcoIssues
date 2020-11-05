@@ -18,6 +18,7 @@ When posting a bug, please follow these Guidelines to help assist the developers
 - If it is hard to reproduce the bug, try to include the crash and log files
   - Server log found in: `...\Eco\Eco_Data\Server\Logs` or `...\Steam\steamapps\common\Eco\Eco_Data\Server`
   - Player log found in: `C:\Users\[YOUR_USERNAME]\AppData\LocalLow\Strange Loop Games\ECO` or `%USERPROFILE%\AppData\LocalLow\Strange Loop Games\ECO`
+- Also add your slgid or nickname if you want to recieve bug/whitehat icon as a reward in case of closing of issue
 
 ### Mods
 Before posting, please remove all mods to verify the problem happens even without them.
