@@ -1,0 +1,69 @@
+name: User Issue
+description: Submit an issue for Eco, the game
+title: "USER ISSUE: "
+body:
+  - type: input
+    id: eco_user_id
+    attributes:
+      label: "User Id:"
+    validations:
+      required: false
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: "Steps to Reproduce:"
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected behavior:"
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual behavior:"
+    validations:
+      required: true
+  - type: textarea
+    id: mods
+    attributes:
+      label: "Do you have mods installed? Does the issue happen when no mods are installed?"
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Please provide log files:"
+      description: |
+        Please select your operating system for instructions:
+
+        <details><summary>Windows (32 or 64 bit)</summary>
+
+        1. Open a windows explorer window (Win+E).
+        2. Search for 'run' in the system search, open the program, type `%LOCALAPPDATA%Low/Strange Loop Games/Eco` into it and press enter.
+        3. Click in the text box below.
+        4. Drag "Player.log" and "Player-prev.log" into this text box.
+        </details>
+
+        <details><summary>Linux</summary>
+
+        1. Locate the log file at `~/.config/unity3d/Strange Loop Games/Eco/Player.log`
+        2. Click in the text box below.
+        3. Drag "Player.log" and "Player-prev.log" into this text box.
+        </details>
+
+        <details><summary>Mac</summary>
+
+        1. Locate the log file at `~/Library/Logs/Strange Loop Games/Eco/Player.log`
+        2. Click in the text box below.
+        3. Drag "Player.log" and "Player-prev.log" into this text box.
+        </details>
+
+        **Please click in the text box below and drag your `Player.log` file in the text box.**
+    validations:
+      required: true

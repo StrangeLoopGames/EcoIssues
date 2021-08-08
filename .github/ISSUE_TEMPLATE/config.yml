@@ -1,0 +1,20 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Website
+    url: https://play.eco/
+    about: Visit our website for more information and contact options.
+  - name: Facebook
+    url: https://www.facebook.com/EcoVideoGame
+    about: Follow us on Facebook.
+  - name: Twitter
+    url: https://twitter.com/StrangeLoopGame
+    about: Follow us on Twitter.
+  - name: Steam
+    url: https://store.steampowered.com/app/382310/Eco/
+    about: Buy the game on Steam.
+  - name: YouTube
+    url: https://www.youtube.com/user/StrangeLoopGame
+    about: Subscribe to us on YouTube.
+  - name: Discord
+    url: https://discord.gg/eco
+    about: Join the community on our Discord server.
