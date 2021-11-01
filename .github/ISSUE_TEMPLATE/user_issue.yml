@@ -44,8 +44,8 @@ body:
 
         <details><summary>Windows (32 or 64 bit)</summary>
 
-        1. Open a windows explorer window (Win+E).
-        2. Search for 'run' in the system search, open the program, type `%LOCALAPPDATA%Low/Strange Loop Games/Eco` into it and press enter.
+        1. Open the windows 'Run' utility (Win+R).
+        2. Type `%LOCALAPPDATA%Low/Strange Loop Games/Eco` into it and press enter (or click OK).
         3. Click in the text box below.
         4. Drag "Player.log" and "Player-prev.log" into this text box.
         </details>
